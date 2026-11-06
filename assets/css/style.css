@@ -31,3 +31,9 @@
 .ai-project-body .ai-disclaimer{font-size:10px!important;color:#8a6c57!important}
 @media(max-width:1000px){.ai-project-grid{grid-template-columns:1fr}.ai-project-card{min-height:280px}.ai-project-cover{min-height:280px}}
 @media(max-width:700px){.ai-project-grid{grid-template-columns:1fr}.ai-project-card{grid-template-columns:1fr}.ai-project-cover{min-height:210px}.ai-project-cover strong{font-size:30px}.ai-project-body{padding:22px}.ai-lab-section{padding-top:25px}.cover-tea .cover-title{font-size:32px}}
+
+/* Portfolio source imagery: photographic evidence and Tea-Boy IP */
+.tea-cover{background:#eee8df;padding:14px}
+.tea-cover img{width:100%;height:100%;object-fit:contain;display:block;mix-blend-mode:multiply}
+.case-content .case-image{display:block;width:100%;height:auto;max-height:320px;object-fit:contain;margin:18px 0;background:#f7f4ee}
+@media(max-width:700px){.tea-cover{min-height:220px}.tea-cover img{max-height:210px}.case-content .case-image{max-height:260px}}
