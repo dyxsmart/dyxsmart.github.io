@@ -44,3 +44,9 @@
 .tea-front-crop img{width:255%;max-width:none;height:auto;object-fit:initial;mix-blend-mode:multiply;transform:translate(-30%,-2%)}
 .tea-cover .cover-kicker{position:absolute;left:18px;top:18px;z-index:2;color:#5a4536;background:rgba(247,244,238,.82);padding:6px 9px}
 @media(max-width:700px){.tea-front-crop img{width:260%}.tea-cover{min-height:220px}}
+
+/* News reporter portfolio card */
+.cover-reporter{background:#43545a;color:#f7f4ee}
+.reporter-lines{position:absolute;right:-35px;bottom:-80px;width:230px;height:230px;border:1px solid rgba(247,244,238,.45);border-radius:50%}
+.reporter-lines:before,.reporter-lines:after{content:"";position:absolute;inset:18px;border:1px solid rgba(247,244,238,.35);border-radius:50%}
+.reporter-lines:after{inset:38px}
