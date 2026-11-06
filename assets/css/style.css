@@ -50,3 +50,20 @@
 .reporter-lines{position:absolute;right:-35px;bottom:-80px;width:230px;height:230px;border:1px solid rgba(247,244,238,.45);border-radius:50%}
 .reporter-lines:before,.reporter-lines:after{content:"";position:absolute;inset:18px;border:1px solid rgba(247,244,238,.35);border-radius:50%}
 .reporter-lines:after{inset:38px}
+
+/* Click-through project architecture */
+.project-entry{display:block;color:inherit;text-decoration:none;cursor:pointer}
+.project-entry .project-cover{transition:transform .28s ease,filter .28s ease;transform-origin:center}
+.project-entry:hover .project-cover,.project-entry:focus-visible .project-cover{transform:scale(1.025);filter:saturate(1.06)}
+.project-entry:focus-visible{outline:2px solid var(--accent);outline-offset:6px}
+.project-entry .project-cover{margin-bottom:0}
+.entry-arrow{position:absolute;right:18px;bottom:14px;z-index:3;width:34px;height:34px;border:1px solid currentColor;border-radius:50%;display:grid;place-items:center;font-size:17px;transition:transform .25s ease,background .25s ease,color .25s ease}
+.project-entry:hover .entry-arrow{transform:translate(3px,-3px);background:var(--paper);color:var(--ink)}
+.project-entry .entry-more{display:flex;justify-content:space-between;align-items:center;border-top:1px solid var(--line);padding:12px 0;font-size:11px;color:var(--accent)}
+.project-entry .entry-more b{font-size:16px;font-weight:400}
+.project-entry h3{transition:color .2s ease}
+.project-entry:hover h3{color:var(--accent)}
+.visual-entry a{position:relative}
+.visual-entry a:after{content:"查看独立作品 ↗";position:absolute;right:12px;bottom:12px;padding:7px 10px;background:rgba(247,244,238,.92);color:var(--ink);font-size:10px;opacity:0;transform:translateY(5px);transition:opacity .2s ease,transform .2s ease}
+.visual-entry:hover a:after,.visual-entry a:focus-visible:after{opacity:1;transform:translateY(0)}
+@media(prefers-reduced-motion:reduce){.project-entry .project-cover,.entry-arrow,.visual-entry a:after{transition:none}}
