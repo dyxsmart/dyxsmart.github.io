@@ -9,3 +9,25 @@
 .career-direction{font-size:11px;color:var(--accent);margin-top:22px}.career-direction span{display:inline-block;border-left:1px solid var(--line);margin-left:12px;padding-left:12px;color:var(--ink)}.ai-section{padding-bottom:0}.ai-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px}.ai-grid article{padding:28px;background:#eee8df;border-top:2px solid var(--accent)}.ai-number{font-size:9px;letter-spacing:1.8px;color:var(--accent)}.ai-grid h3{font-family:var(--serif);font-size:25px;margin:13px 0 3px}.tool-name{font-size:13px;font-weight:600;color:var(--accent);margin:0 0 16px}.ai-grid article>p:not(.tool-name){font-size:13px;color:var(--muted);margin-bottom:20px}.skill-chip{font-size:10px;display:inline-block;padding:2px 9px;border:1px solid #cfc2b6;margin:0 5px 5px 0}.visual-section{padding-top:0}.visual-section .text-link{font-size:11px;gap:15px}.production-note{display:grid;grid-template-columns:1fr 3fr;gap:30px;padding:25px 0;border-top:1px solid var(--line);margin-bottom:15px}.production-note .eyebrow{margin-top:5px}.production-note h3{font-family:var(--serif);font-size:21px;margin:0 0 8px}.production-note p{font-size:13px;color:var(--muted);margin:0;max-width:720px}.visual-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:25px}.visual-grid figure{margin:0}.visual-grid a{display:block;overflow:hidden}.visual-grid img{display:block;width:100%;height:270px;object-fit:cover;background:#e9e3d9;transition:transform .25s}.visual-grid figure:first-child img{object-position:center 35%}.visual-grid a:hover img{transform:scale(1.025)}.visual-grid figcaption{padding-top:14px}.visual-grid figcaption span{font-size:9px;letter-spacing:1.4px;color:var(--accent)}.visual-grid h3{font-family:var(--serif);font-size:21px;margin:7px 0}.visual-grid p{font-size:12px;color:var(--muted);margin:0}
 @media(max-width:1000px){nav{gap:22px}.ai-grid{gap:15px}.ai-grid article{padding:20px}.visual-grid img{height:220px}}
 @media(max-width:700px){nav{gap:8px;font-size:11px;flex-wrap:wrap}.career-direction{font-size:10px}.career-direction span{padding-left:8px;margin-left:8px}.ai-grid{grid-template-columns:1fr;gap:15px}.ai-grid article{padding:23px}.ai-grid h3{font-size:24px}.ai-grid article>p:not(.tool-name){margin-bottom:15px}.visual-section .section-heading{display:block}.visual-section .text-link{margin-top:16px}.production-note{display:block}.production-note .eyebrow{display:block;margin-bottom:10px}.production-note h3{font-size:20px}.visual-grid{grid-template-columns:1fr;gap:30px}.visual-grid img{height:auto;max-height:440px;object-fit:contain}.visual-grid figure:first-child img{height:380px;object-fit:cover;object-position:center 25%}.visual-section{padding-top:0}.hero .eyebrow{letter-spacing:1.1px;font-size:7px}}
+
+
+/* AI project cases and original cultural IP */
+.cover-tea{background:#d9e1d7;color:#263b31}
+.tea-mark{position:absolute;right:14px;bottom:-82px;font:250px "Songti SC",serif;color:#a8b8a8;line-height:1}
+.ai-lab-section{padding-top:35px}
+.ai-project-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:28px}
+.ai-project-card{background:#eee9e1;display:grid;grid-template-columns:.9fr 1.1fr;min-height:320px}
+.ai-project-cover{padding:25px;display:flex;flex-direction:column;justify-content:space-between;color:#f7f4ee;min-height:320px}
+.ai-project-cover>span{font-size:9px;letter-spacing:1.7px}
+.ai-project-cover strong{font:32px/1.45 "Songti SC","STSong",serif}
+.ai-project-cover small{font-size:10px;letter-spacing:1px}
+.ai-cover-hema{background:#8d343c}
+.ai-cover-show{background:#394b56}
+.ai-project-body{padding:25px 22px}
+.ai-project-index{font-size:9px;letter-spacing:1.3px;color:var(--accent);margin:0 0 10px}
+.ai-project-body h3{font:23px "Songti SC","STSong",serif;margin:0 0 12px}
+.ai-project-body>p:not(.ai-project-index){font-size:12px;color:var(--muted);line-height:2}
+.ai-project-body .ai-tools{font-size:11px!important;color:var(--accent)!important;border-top:1px solid var(--line);padding-top:12px;margin-top:16px}
+.ai-project-body .ai-disclaimer{font-size:10px!important;color:#8a6c57!important}
+@media(max-width:1000px){.ai-project-grid{grid-template-columns:1fr}.ai-project-card{min-height:280px}.ai-project-cover{min-height:280px}}
+@media(max-width:700px){.ai-project-grid{grid-template-columns:1fr}.ai-project-card{grid-template-columns:1fr}.ai-project-cover{min-height:210px}.ai-project-cover strong{font-size:30px}.ai-project-body{padding:22px}.ai-lab-section{padding-top:25px}.cover-tea .cover-title{font-size:32px}}
