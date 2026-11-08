@@ -35,3 +35,18 @@ python3 -m http.server 8000
 首页仅展示邮箱；下载按钮目前链接原始 PDF，其中包含电话和微信。公开发布前请按本人意愿替换为公开版简历。
 
 所有履历时间以原简历为准。网站未包含第三方统计、后台或在线表单。
+
+
+## 《书法之于我》视频
+
+- 在现有纪录片项目 `documentary.html` 的“人物纪录片｜书法之于我”栏目播放，不新增独立项目。
+- `assets/videos/calligraphy.mp4`：完整 05:29 的 720p H.264 / AAC 网页版，约 27.2 MiB；原始 4K 视频保留在仓库外。
+- `assets/images/calligraphy-poster.jpg`：视频封面。播放器支持手机内联播放与全屏，点击后才加载视频。
+- 发布时通过 Git 一并推送页面、视频与封面；单个文件需小于 GitHub 的 100 MiB 限制。
+
+## 分支约定
+
+- `portfolio-assets`：现有作品集基准。
+- `ljx_dev`：与 `portfolio-assets` 保持一致的基准副本。
+- `dev`：从基准分支创建，承载本次人物纪录片视频集成。
+- GitHub Pages 的发布分支需包含对应修改，线上网站才会更新。
