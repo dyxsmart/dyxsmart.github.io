@@ -32,11 +32,11 @@ PDF 下载位于 `assets/documents/`。其中 `resume.pdf` 为原始简历，包
 
 ## 分支与发布
 
-- `dev`：当前开发与整理分支。
+- `main`：默认主分支，也是 GitHub Pages 的正式发布分支。
+- `dev`：开发分支；此次已与主分支同步。
 - `portfolio-assets`、`ljx_dev`：此前保留的一致基准；不随本次整理变更。
-- `main`：原始版本。
 
-GitHub 仓库 Settings → Pages → Deploy from a branch，选择包含所需内容的分支及 `/ (root)`。若发布 `dev`，推送该分支后自动更新。网站地址为 https://dyxsmart.github.io/ 。`.nojekyll` 用于直接发布静态资源。
+GitHub 仓库 Settings → Pages → Deploy from a branch，选择包含所需内容的分支及 `/ (root)`。当前发布来源为 `main` 和 `/ (root)`，推送 `main` 后自动更新。网站地址为 https://dyxsmart.github.io/ 。`.nojekyll` 用于直接发布静态资源。
 
 普通 Git 上传的单文件需小于 100 MiB；视频通过 Git 上传，不使用网页上传。
 
