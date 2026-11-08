@@ -43,3 +43,17 @@ GitHub 仓库 Settings → Pages → Deploy from a branch，选择包含所需�
 ## 修改后检查
 
 运行 `python3 scripts/check_site.py` 检查本地页面资源、页面锚点及文件大小，再在浏览器检查受影响页面与视频播放。
+
+
+## Marketing 求职作品集结构
+
+首页按“定位 → 运营成果 → 四个精选案例 → AI 创意 → 制作能力 → 经历与教育 → 联系”组织。四个精选案例分别为内容运营、纪录片、航展传播与原创 IP。
+
+- `assets/css/marketing-theme.css`：全站配色、详情页信息摘要和素材画廊。
+- `assets/css/marketing-home.css`：新版首页响应式布局。
+- `ai-creative.html`：5 段 AI 创意视频及分镜思路；均按创意练习展示。
+- `assets/images/marketing/`：从用户素材生成的网页图片与视频封面。
+- `docs/ASSET-SOURCES.md`：新增素材与本地原文件的对应关系。
+- `assets/js/media.js`：在 AI 作品页播放新视频时暂停其他视频。
+
+视频点击后加载，首页只展示封面；未完成下载的素材不接入。新增素材保留原件，网页只使用优化副本。

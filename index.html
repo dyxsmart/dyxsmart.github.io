@@ -2,23 +2,24 @@
 <html lang="zh-CN">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="theme-color" content="#f5f3ed" />
     <meta
       name="description"
-      content="邓云馨的整合营销作品集，求职方向为内容运营与创意策划。展示 AI 辅助创作、品牌传播、活动统筹、影像制作与数据分析能力。"
+      content="邓云馨的 Marketing 求职作品集：内容运营、文化内容、媒体传播、原创 IP 与 AI 视频创意。"
     />
-    <meta name="theme-color" content="#f7f4ee" />
-    <title>邓云馨 · 整合营销与内容策划</title>
+    <title>邓云馨 · Marketing & Creative Portfolio</title>
     <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/marketing-theme.css" />
+    <link rel="stylesheet" href="assets/css/marketing-home.css" />
     <script src="assets/js/main.js" defer></script>
   </head>
-  <body>
+  <body class="marketing-home">
     <a class="skip-link" href="#main">跳转至正文</a>
     <header class="site-header wrap">
       <a class="wordmark" href="#home" aria-label="邓云馨，返回首页"
-        >邓云馨<span>YUNXIN DENG</span></a
-      >
-      <button
+        >邓云馨<span>YUNXIN DENG<br />MARKETING PORTFOLIO</span></a
+      ><button
         class="menu-toggle"
         type="button"
         aria-expanded="false"
@@ -27,334 +28,278 @@
         菜单 <span aria-hidden="true">＋</span>
       </button>
       <nav id="navigation" aria-label="主导航">
-        <a href="#work">精选项目</a><a href="#ai-lab">AI 创作</a
-        ><a href="#ai-skills">AI 技能</a><a href="#experience">实习经历</a
-        ><a href="#about">关于我</a
-        ><a href="#contact">联系 <span aria-hidden="true">↗</span></a>
+        <a href="#work">精选案例</a><a href="#ai-lab">AI 创作</a
+        ><a href="#experience">经历与背景</a><a href="#contact">联系我 ↗</a>
       </nav>
     </header>
     <main id="main">
-      <section id="home" class="hero wrap">
-        <div class="hero-copy">
-          <p class="eyebrow">INTEGRATED MARKETING · CONTENT · CREATIVE</p>
+      <section id="home" class="m-hero wrap">
+        <div class="m-hero-copy">
+          <p class="m-kicker">
+            <span class="status-dot"></span> OPEN TO MARKETING OPPORTUNITIES
+          </p>
           <h1>
-            从创意到传播，<br />让内容有回响<span class="accent">。</span>
+            让好内容，<br />成为品牌的<br /><em>连接。</em
+            ><span class="hero-asterisk" aria-hidden="true">✳</span>
           </h1>
-          <p class="intro">
-            我是邓云馨，澳门科技大学传播学硕士在读。<br />关注整合营销，以内容策划连接品牌与受众，<br
+          <p class="m-hero-intro">
+            我是邓云馨，传播学硕士在读。<br />从受众与文化洞察出发，把想法变成<br
               class="desktop-break"
-            />结合 AI 工具、影像制作与数据复盘推进内容落地。
+            />可发布、可传播、可复盘的内容。
           </p>
-          <p class="career-direction">
-            求职意向 <span>整合营销 / 内容运营 / 创意策划</span>
-          </p>
+          <div class="role-line">
+            整合营销 <span>/</span> 内容运营 <span>/</span> 创意策划
+          </div>
           <div class="hero-actions">
             <a class="button primary" href="#work"
-              >探索我的项目 <span>↗</span></a
+              >查看精选案例 <span>↓</span></a
             ><a class="button" href="assets/documents/resume.pdf" download
-              >下载简历 <span>↓</span></a
+              >下载简历 <span>↗</span></a
             >
           </div>
         </div>
-        <div class="hero-art" aria-hidden="true">
-          <div class="art-top">FROM INSIGHT<br />TO CREATIVE</div>
-          <span class="quote">“</span>
-          <div class="art-words">洞察<br />创意<br />传播</div>
-          <div class="art-line"></div>
-          <div class="art-caption">
-            以内容连接品牌与受众<br />用 AI 辅助创意表达
+        <div class="hero-board">
+          <div class="board-header">
+            <span>A FEW THINGS I MAKE</span><span>01 — 03</span>
           </div>
-          <span class="art-index">01 — ∞</span>
+          <div class="board-main">
+            <img
+              class=""
+              src="assets/images/marketing/tea-world.webp"
+              alt="茶煲仔原创文化 IP 设计与视觉应用"
+              loading="eager"
+            /><span class="board-tag">文化洞察 → 原创 IP</span>
+          </div>
+          <div class="board-strip">
+            <div>
+              <img
+                class=""
+                src="assets/images/marketing/film-scene.webp"
+                alt="学生短片中的场景与人物"
+                loading="eager"
+              /><span>STORYTELLING</span>
+            </div>
+            <div>
+              <img
+                class=""
+                src="assets/images/marketing/ai-trainee.jpg"
+                alt="AI 选秀创意视频画面"
+                loading="eager"
+              /><span>AI EXPLORATION</span>
+            </div>
+          </div>
+          <div class="board-footer">
+            <span>从一个想法，到一次表达。</span
+            ><span>CONTENT × CULTURE × CREATIVE</span>
+          </div>
         </div>
       </section>
-      <div class="metrics wrap" aria-label="小红书宠物账号累计成果与专业方向">
+      <section class="proof-strip wrap" aria-label="内容运营成果">
+        <p>先用作品说话。<span>SELECTED EVIDENCE</span></p>
         <div>
-          <strong>18<span>万</span></strong>
-          <p>小红书账号累计浏览</p>
+          <strong>18<span>万</span></strong
+          ><span>小红书累计浏览</span>
         </div>
         <div>
-          <strong>1.2<span>万</span></strong>
-          <p>小红书账号累计点赞</p>
+          <strong>1.2<span>万</span></strong
+          ><span>小红书累计点赞</span>
         </div>
-        <p class="disciplines">
-          AI 辅助创作 <i>/</i> 内容运营 <i>/</i> 营销策划
-        </p>
-      </div>
-      <section
-        id="ai-skills"
-        class="section wrap ai-section"
-        aria-labelledby="ai-heading"
-      >
-        <div class="section-heading">
-          <div>
-            <p class="eyebrow">AI-ASSISTED CREATIVE WORK</p>
-            <h2 id="ai-heading">用 AI，把创意推进一步。</h2>
-          </div>
-          <p class="section-note">
-            选题与文案 · 图片制作 · 视频字幕<br />将 AI
-            工具用于具体的内容创作环节
-          </p>
-        </div>
-        <div class="ai-grid">
-          <article>
-            <span class="ai-number">01 / IDEATION</span>
-            <h3>选题与文案</h3>
-            <p class="tool-name">ChatGPT · 豆包</p>
-            <p>
-              使用 AI 辅助选题构思与文案撰写，为内容策划提供思路与表达支持。
-            </p>
-            <span class="skill-chip">内容策划</span
-            ><span class="skill-chip">文案创作</span>
-          </article>
-          <article>
-            <span class="ai-number">02 / VISUAL</span>
-            <h3>图片制作</h3>
-            <p class="tool-name">即梦 AI</p>
-            <p>
-              使用即梦制作图片，将文字创意转化为可视化素材，辅助内容视觉表达；结合
-              GPT、豆包与 LibTV 推进 AI 视频创意制作。
-            </p>
-            <span class="skill-chip">AI 生图</span
-            ><span class="skill-chip">视觉表达</span>
-          </article>
-          <article>
-            <span class="ai-number">03 / VIDEO</span>
-            <h3>视频字幕</h3>
-            <p class="tool-name">剪映 AI</p>
-            <p>
-              使用剪映 AI 生成字幕，结合视频剪辑与后期包装，完成视频内容制作。
-            </p>
-            <span class="skill-chip">AI 字幕</span
-            ><span class="skill-chip">视频制作</span>
-          </article>
-        </div>
+        <div><strong>7,758</strong><span>Threads 首帖 24h 观看</span></div>
       </section>
-      <section id="work" class="section wrap">
-        <div class="section-heading">
+      <section id="work" class="m-section wrap" aria-labelledby="work-title">
+        <div class="m-section-heading">
           <div>
-            <p class="eyebrow">SELECTED WORK</p>
-            <h2>从内容策划，到传播执行。</h2>
+            <p class="m-kicker">01 / SELECTED CASES</p>
+            <h2 id="work-title">有想法，也有落地。</h2>
           </div>
-          <p class="section-note">
-            账号运营 · 品牌合作 · 媒体传播<br />用具体项目呈现策划与执行能力。
-          </p>
+          <p>从内容运营到传播执行，<br />四个案例，呈现不同侧面的实践。</p>
         </div>
-        <div class="projects project-entry-grid">
-          <a class="project project-entry" href="social-content.html"
-            ><div class="project-cover cover-social">
-              <span class="cover-kicker">CONTENT / SOCIAL</span
-              ><span class="cover-title">关于宠物，<br />也关于陪伴。</span
-              ><span class="cover-bottom">策划 · 创作 · 运营</span
-              ><span class="cover-symbol">*</span
-              ><span class="entry-arrow">↗</span>
+        <div class="case-grid">
+          <a class="case-card" href="social-content.html"
+            ><div class="case-cover">
+              <div class="social-art">
+                <span class="art-label">SOCIAL CONTENT / REAL RESPONSE</span
+                ><strong>18<span>万</span></strong>
+                <p>从日常选题，走向真实互动。</p>
+                <div class="social-art-bottom">
+                  <span>小红书累计浏览</span><span>1.2 万累计点赞 ↗</span>
+                </div>
+                <div class="social-rings" aria-hidden="true"></div>
+              </div>
+              <span class="case-open" aria-hidden="true">↗</span>
             </div>
-            <div class="project-label">
-              <span>01</span>
-              <p>内容运营 / 商业合作</p>
+            <div class="case-topline">
+              <span>01 / SOCIAL MEDIA</span><span>内容运营 · 品牌合作</span>
             </div>
-            <h3>小红书宠物内容运营</h3>
+            <h3>把宠物日常，变成持续被喜欢的内容。</h3>
             <p>
-              独立运营宠物账号，围绕宠物话题开展选题策划与内容创作，累计获得 18
-              万浏览、1.2 万点赞。
+              独立运营小红书宠物账号，完成选题、创作与品牌合作；将高互动内容适配到
+              Threads，继续验证传播反馈。
             </p>
-            <span class="entry-more">进入项目介绍 <b>↗</b></span></a
-          >
-          <a class="project project-entry" href="documentary.html#portrait-documentary"
-            ><div class="project-cover cover-film">
-              <span class="cover-kicker">DOCUMENTARY / CULTURE</span
-              ><span class="cover-title">让手艺留下，<br />让故事继续。</span
-              ><span class="cover-bottom">非遗 · 纪录 · 传播</span
-              ><span class="film-frame"></span
-              ><span class="entry-arrow">↗</span>
+            <span class="case-cta">查看案例 <b>↗</b></span></a
+          ><a class="case-card" href="documentary.html#portrait-documentary"
+            ><div class="case-cover">
+              <img
+                src="assets/images/calligraphy-poster.jpg"
+                alt="人物纪录片《书法之于我》画面"
+                loading="lazy"
+              /><span class="cover-caption">CULTURE IN MOTION</span
+              ><span class="watch-pill">▶ 观看作品 · 05:29</span
+              ><span class="case-open" aria-hidden="true">↗</span>
             </div>
-            <div class="project-label">
-              <span>02</span>
-              <p>影像叙事 / 非遗记录</p>
+            <div class="case-topline">
+              <span>02 / DOCUMENTARY</span><span>文化内容 · 影像叙事</span>
             </div>
             <h3>非遗纪录片策划与导演</h3>
-            <p>参与湖南望城皮影戏、海南保亭蓝染与海南黎陶相关纪录片创作。</p>
-            <span class="entry-more">进入项目介绍 <b>↗</b></span></a
-          >
-          <a class="project project-entry" href="airshow.html"
-            ><div class="project-cover cover-media">
-              <span class="cover-kicker">MEDIA / COMMUNICATION</span
-              ><span class="cover-title">走进现场，<br />连接更多视角。</span
-              ><span class="cover-bottom">媒体 · 采编 · 传播</span
-              ><span class="orbit"></span><span class="entry-arrow">↗</span>
-            </div>
-            <div class="project-label">
-              <span>03</span>
-              <p>实习实践 / 媒体宣传</p>
-            </div>
-            <h3>中国航展媒体传播</h3>
             <p>
-              参与第十四届、第十五届中国航展媒体工作，涉及媒体接待、新闻整理、舆情监测与传播执行。
+              从地方手艺到人物故事，用选题、叙事与现场拍摄呈现文化。含人物纪录片《书法之于我》完整视频。
             </p>
-            <span class="entry-more">进入项目介绍 <b>↗</b></span></a
-          >
-          <a class="project project-entry" href="reporter.html"
-            ><div class="project-cover cover-reporter">
-              <span class="cover-kicker">NEWS / REPORTING</span
-              ><span class="cover-title">从现场出发，<br />把新闻讲清楚。</span
-              ><span class="cover-bottom">选题 · 采访 · 编辑 · 发布</span
-              ><span class="reporter-lines"></span
-              ><span class="entry-arrow">↗</span>
+            <span class="case-cta">观看纪录片 <b>↗</b></span></a
+          ><a class="case-card" href="airshow.html"
+            ><div class="case-cover">
+              <img
+                class=""
+                src="assets/images/marketing/airshow-flight.webp"
+                alt="航展飞行表演的彩色航迹"
+                loading="lazy"
+              /><span class="cover-caption"
+                >ON THE GROUND.<br />IN THE CONVERSATION.</span
+              ><span class="case-open" aria-hidden="true">↗</span>
             </div>
-            <div class="project-label">
-              <span>04</span>
-              <p>融媒体实践 / 新闻采编</p>
+            <div class="case-topline">
+              <span>03 / EVENT COMMUNICATION</span
+              ><span>媒体沟通 · 活动执行</span>
             </div>
-            <h3>珠海传媒集团 · 实习记者</h3>
+            <h3>走进中国航展，把传播落到现场。</h3>
             <p>
-              参与新闻选题、采访调研、稿件撰写与短视频制作，署名作品发布于官方视频号。
+              参与两届航展媒体宣传工作，连接媒体接待、采访协调、内容整理与传播复盘。
             </p>
-            <span class="entry-more">进入项目介绍 <b>↗</b></span></a
-          >
-          <a class="project project-entry" href="tea-boy.html"
-            ><div class="project-cover cover-tea tea-cover">
-              <div class="tea-front-crop">
-                <img
-                  src="assets/images/tea-boy-turnaround.webp"
-                  alt="茶煲仔原创 IP 角色形象"
-                  loading="lazy"
-                />
-              </div>
-              <span class="cover-kicker">IP DESIGN / MACAU CULTURE</span
-              ><span class="entry-arrow">↗</span>
+            <span class="case-cta">查看案例 <b>↗</b></span></a
+          ><a class="case-card" href="tea-boy.html"
+            ><div class="case-cover">
+              <img
+                class="contain"
+                src="assets/images/marketing/tea-world.webp"
+                alt="茶煲仔原创角色、凉茶铺与应用设计"
+                loading="lazy"
+              /><span class="ip-stamp">ORIGINAL<br />IP CONCEPT</span
+              ><span class="case-open" aria-hidden="true">↗</span>
             </div>
-            <div class="project-label">
-              <span>05</span>
-              <p>个人原创 / IP 视觉设计</p>
+            <div class="case-topline">
+              <span>04 / CULTURAL IP</span><span>文化洞察 · 创意表达</span>
             </div>
-            <h3>「茶煲仔」澳门凉茶文化主题 IP</h3>
-            <p>以澳门凉茶文化为灵感，构建原创角色、视觉系统与内容延展方案。</p>
-            <span class="entry-more">进入项目介绍 <b>↗</b></span></a
+            <h3>茶煲仔：让澳门凉茶文化更亲近。</h3>
+            <p>
+              把地方文化与年轻人的情绪连接，延展为原创角色、品牌视觉和内容场景。个人原创
+              IP 概念设计。
+            </p>
+            <span class="case-cta">查看案例 <b>↗</b></span></a
           >
         </div>
       </section>
-
-      <section
-        id="ai-lab"
-        class="section wrap ai-lab-section"
-        aria-labelledby="ai-lab-heading"
-      >
-        <div class="section-heading">
-          <div>
-            <p class="eyebrow">AI CREATIVE LAB</p>
-            <h2 id="ai-lab-heading">从脚本到成片，让 AI 参与创作。</h2>
+      <section id="ai-lab" class="ai-feature">
+        <div class="wrap ai-feature-grid">
+          <div class="ai-feature-copy">
+            <p class="m-kicker">02 / CREATIVE EXPLORATION</p>
+            <h2>用 AI，<br />把创意拍出来。</h2>
+            <p>
+              从分镜脚本到画面生成与剪辑，<br />探索产品信息、人物设定与短视频叙事的表达。
+            </p>
+            <div class="pill-row">
+              <span>分镜脚本</span><span>AI 生成</span><span>后期剪辑</span>
+            </div>
+            <a class="button primary" href="ai-creative.html"
+              >进入 AI 作品集 <span>↗</span></a
+            ><small>创意练习与作品展示，不代表品牌官方投放。</small>
           </div>
-          <p class="section-note">独立策划 · 脚本撰写 · AI 生成 · 后期剪辑</p>
-        </div>
-        <div class="ai-project-grid">
-          <article class="ai-project-card">
-            <div class="ai-project-cover ai-cover-hema">
-              <span>COMMERCIAL VIDEO</span><strong>盒马<br />AI 创意广告</strong
-              ><small>脚本撰写 / AI 生成 / 后期剪辑</small>
-            </div>
-            <div class="ai-project-body">
-              <p class="ai-project-index">01 / END-TO-END PRODUCTION</p>
-              <h3>盒马 AI 小广告</h3>
-              <p>
-                独立负责从脚本构思与撰写、AI
-                画面生成到后期剪辑的完整制作流程，将创意转化为可观看的视频成片。
-              </p>
-              <p class="ai-tools">
-                核心能力：创意脚本 · AI 视频生成 · 视频剪辑
-              </p>
-              <p class="ai-disclaimer">
-                项目展示前将根据合作约定确认品牌名称及成片公开权限。
-              </p>
-            </div>
-          </article>
-          <article class="ai-project-card">
-            <div class="ai-project-cover ai-cover-show">
-              <span>AI VIDEO EXPERIMENT</span
-              ><strong>AI 选秀<br />创意短片</strong
-              ><small>从 0 到 1 独立策划</small>
-            </div>
-            <div class="ai-project-body">
-              <p class="ai-project-index">02 / ORIGINAL CONCEPT</p>
-              <h3>AI 选秀视频</h3>
-              <p>
-                从零开始完成创意策划，结合 GPT、豆包、即梦与 LibTV
-                等工具推进创意构思和视频制作，探索 AI
-                工具在短视频叙事中的协作方式。
-              </p>
-              <p class="ai-tools">工具：GPT · 豆包 · 即梦 · LibTV</p>
-            </div>
-          </article>
+          <div class="ai-preview-grid">
+            <a href="ai-creative.html#hema" class="phone-preview"
+              ><img
+                class=""
+                src="assets/images/marketing/ai-hema-story.jpg"
+                alt="盒马主题 AI 创意广告画面"
+                loading="lazy"
+              /><span>01 / 产品创意广告 <b>▶</b></span></a
+            ><a href="ai-creative.html#trainee" class="phone-preview"
+              ><img
+                class=""
+                src="assets/images/marketing/ai-trainee.jpg"
+                alt="AI 练习生选秀视频画面"
+                loading="lazy"
+              /><span>02 / AI 选秀视频 <b>▶</b></span></a
+            >
+          </div>
         </div>
       </section>
       <section
         id="visual-work"
-        class="section wrap visual-section"
-        aria-labelledby="visual-heading"
+        class="m-section wrap"
+        aria-labelledby="visual-title"
       >
-        <div class="section-heading">
+        <div class="m-section-heading">
           <div>
-            <p class="eyebrow">PRODUCTION & VISUAL PORTFOLIO</p>
-            <h2 id="visual-heading">创意落地，也能亲自执行。</h2>
+            <p class="m-kicker">03 / PRODUCTION SKILLS</p>
+            <h2 id="visual-title">也能走到镜头背后。</h2>
           </div>
-          <span class="section-note">摄影 · 短片 · 幕后记录</span>
+          <p>用采编、摄影与制作能力，<br />把策划推进到具体内容。</p>
         </div>
-        <div class="production-note">
-          <span class="eyebrow">STUDENT SHORT FILM</span>
-          <div>
-            <h3>学生短片项目 · 制片与剧照拍摄</h3>
-            <p>
-              负责拍摄排程、场地协调及现场后勤，统筹剧组沟通与进度管控，并承担剧照及幕后花絮拍摄。将活动统筹、资源协调与内容制作落实到现场执行。
-            </p>
+        <div class="visual-card-grid">
+          <a class="visual-card" href="reporter.html"
+            ><img
+              class=""
+              src="assets/images/marketing/newsroom.webp"
+              alt="融媒体新闻采编"
+              loading="lazy"
+            /><span>采访、稿件与视频号内容</span>
+            <h3>融媒体新闻采编 <b>↗</b></h3></a
+          ><a class="visual-card" href="photography.html"
+            ><img
+              class=""
+              src="assets/images/marketing/portrait-outdoor.webp"
+              alt="摄影与视觉表达"
+              loading="lazy"
+            /><span>棚拍布光、构图与后期</span>
+            <h3>摄影与视觉表达 <b>↗</b></h3></a
+          ><a class="visual-card" href="student-film.html"
+            ><img
+              class=""
+              src="assets/images/marketing/film-scene.webp"
+              alt="学生短片制作"
+              loading="lazy"
+            /><span>制片统筹、剧照与现场协作</span>
+            <h3>学生短片制作 <b>↗</b></h3></a
+          >
+        </div>
+        <a class="subtle-link" href="behind-scenes.html"
+          >更多幕后与现场记录 ↗</a
+        >
+      </section>
+      <section id="ai-skills" class="capability-band">
+        <div class="wrap">
+          <p class="m-kicker">HOW I WORK</p>
+          <div class="capability-grid">
+            <article>
+              <span>01 / UNDERSTAND</span>
+              <h3>先理解受众</h3>
+              <p>桌面研究、访谈与平台反馈，寻找内容切入点。</p>
+              <small>调研 · 受众洞察 · 选题</small>
+            </article>
+            <article>
+              <span>02 / CREATE</span>
+              <h3>再组织表达</h3>
+              <p>把产品与文化信息，转化为文案、视觉与影像。</p>
+              <small>脚本 · AI 创作 · 影像制作</small>
+            </article>
+            <article>
+              <span>03 / LEARN</span>
+              <h3>持续观察反馈</h3>
+              <p>结合数据与实际执行，复盘内容和传播方式。</p>
+              <small>Excel · SPSS · Tableau</small>
+            </article>
           </div>
-        </div>
-        <div class="visual-grid">
-          <figure class="visual-entry">
-            <a href="photography.html" aria-label="进入棚拍摄影独立作品页"
-              ><img
-                src="assets/images/portrait.webp"
-                alt="作品集中的棚拍人像摄影，模特站在摄影棚中"
-                width="756"
-                height="1009"
-                loading="lazy"
-            /></a>
-            <figcaption>
-              <span>01 / PHOTOGRAPHY</span>
-              <h3>棚拍人像摄影</h3>
-              <p>佳能 EOS R8 · 单灯与柔光箱<br />构图、布光与视觉表达</p>
-            </figcaption>
-          </figure>
-          <figure class="visual-entry">
-            <a href="student-film.html" aria-label="进入学生短片独立作品页"
-              ><img
-                src="assets/images/film-still.webp"
-                alt="学生短片剧照，人物站在河岸边，远处是建筑与山景"
-                width="1200"
-                height="800"
-                loading="lazy"
-            /></a>
-            <figcaption>
-              <span>02 / FILM STILLS</span>
-              <h3>学生短片剧照</h3>
-              <p>场景氛围与人物叙事<br />影像内容制作</p>
-            </figcaption>
-          </figure>
-          <figure class="visual-entry">
-            <a href="behind-scenes.html" aria-label="进入幕后拍摄独立作品页"
-              ><img
-                src="assets/images/behind-scenes.webp"
-                alt="拍摄现场的幕后照片，剧组在车辆旁使用拍摄设备"
-                width="1134"
-                height="756"
-                loading="lazy"
-            /></a>
-            <figcaption>
-              <span>03 / BEHIND THE SCENES</span>
-              <h3>幕后与现场记录</h3>
-              <p>剧组协作与现场观察<br />幕后花絮拍摄</p>
-            </figcaption>
-          </figure>
         </div>
       </section>
-      <section id="experience" class="section experience-section">
+      <section class="section experience-section" id="experience">
         <div class="wrap">
           <div class="section-heading">
             <div>
@@ -411,9 +356,9 @@
           </div>
         </div>
       </section>
-      <section id="about" class="section wrap about">
+      <section class="section wrap about" id="about">
         <div class="about-intro">
-          <p class="eyebrow">ABOUT & EDUCATION</p>
+          <p class="eyebrow">ABOUT &amp; EDUCATION</p>
           <h2>保持好奇，<br />持续表达。</h2>
           <p>
             从广播电视编导到传播学，<br />将影像制作、内容运营与品牌传播结合，<br />面向整合营销方向，持续积累策划与执行能力。
@@ -421,8 +366,8 @@
           <a
             class="text-link"
             href="assets/documents/resume.pdf"
-            target="_blank"
             rel="noopener"
+            target="_blank"
             >查看完整简历 <span>↗</span></a
           >
         </div>
@@ -446,60 +391,31 @@
           </article>
         </div>
       </section>
-      <section class="skills wrap" aria-labelledby="skills-heading">
-        <div class="section-heading">
-          <div>
-            <p class="eyebrow">TOOLKIT</p>
-            <h2 id="skills-heading">面向营销场景的专业能力。</h2>
+      <section id="contact" class="m-contact">
+        <div class="wrap">
+          <p class="m-kicker">LET’S MAKE SOMETHING THAT CONNECTS.</p>
+          <div class="contact-grid">
+            <h2>下一次连接，<br />从这里开始。</h2>
+            <div>
+              <p>
+                正在寻找整合营销、内容运营与创意策划相关机会。<br />欢迎交流岗位与项目。
+              </p>
+              <a href="mailto:lilykoi0299@gmail.com"
+                >lilykoi0299@gmail.com <span>↗</span></a
+              ><a
+                class="resume-small"
+                href="assets/documents/resume.pdf"
+                download
+                >下载简历 ↓</a
+              >
+            </div>
           </div>
-        </div>
-        <div class="skill-grid">
-          <article>
-            <span>01 / RESEARCH</span>
-            <h3>调研与受众洞察</h3>
-            <p>
-              桌面研究、定性访谈、定量问卷、访谈提纲、线上与线下调研、结构化信息整理
-            </p>
-          </article>
-          <article>
-            <span>02 / CONTENT</span>
-            <h3>运营与传播策划</h3>
-            <p>
-              选题与文案、微信公众号编辑排版及推送、小红书运营、品牌 brief
-              对接、活动策划与媒体沟通
-            </p>
-          </article>
-          <article>
-            <span>03 / DATA</span>
-            <h3>数据分析与复盘</h3>
-            <p>Excel、PPT、SPSS、Tableau、爱图说、文档写作与数据可视化</p>
-          </article>
-          <article>
-            <span>04 / CREATION</span>
-            <h3>影像与设计</h3>
-            <p>
-              Premiere、剪映、Photoshop、Canva；相机拍摄、布光、剪辑、调色与包装；具备
-              Lightroom、达芬奇基础使用经验
-            </p>
-          </article>
-        </div>
-      </section>
-      <section id="contact" class="contact-section">
-        <div class="wrap contact">
-          <div>
-            <p class="eyebrow">LET’S CONNECT</p>
-            <h2>一起把好故事，<br />讲给更多人。</h2>
-            <p>正在关注整合营销、内容运营与策划方向的机会，欢迎联系。</p>
-          </div>
-          <a class="contact-link" href="mailto:lilykoi0299@gmail.com"
-            >lilykoi0299@gmail.com <span>↗</span></a
-          >
         </div>
       </section>
     </main>
     <footer class="wrap footer">
       <p>© <span id="year">2026</span> 邓云馨</p>
-      <p>整合营销 · 内容运营 · 创意策划</p>
+      <p>THOUGHTFUL CONTENT. MEANINGFUL CONNECTIONS.</p>
       <a href="#home">回到顶部 ↑</a>
     </footer>
   </body>

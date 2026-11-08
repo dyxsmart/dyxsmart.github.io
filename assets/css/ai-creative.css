@@ -1,0 +1,144 @@
+.film-jump {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  font-size: 11px;
+}
+.film-jump a {
+  padding-bottom: 6px;
+  border-bottom: 1px solid var(--line);
+}
+.ai-film-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 28px;
+  margin-top: 28px;
+}
+.ai-film {
+  background: #e6e9df;
+  scroll-margin-top: 25px;
+}
+.ai-film-media {
+  background: #162820;
+  padding: 22px;
+  display: flex;
+  justify-content: center;
+}
+.ai-film video {
+  display: block;
+  width: 100%;
+  max-width: 270px;
+  height: auto;
+  aspect-ratio: 9/16;
+  object-fit: contain;
+  background: #111;
+  border-radius: 8px;
+}
+.ai-film-copy {
+  padding: 22px 24px 26px;
+}
+.ai-film-copy h3 {
+  font: 24px/1.5 var(--serif);
+  margin: 0 0 12px;
+}
+.ai-film-copy p {
+  font-size: 13px;
+  line-height: 1.9;
+  color: var(--muted);
+}
+.ai-film-copy a {
+  font-size: 11px;
+  border-bottom: 1px solid var(--line);
+  padding: 5px 0;
+}
+.detail-section > .ai-film {
+  display: grid;
+  grid-template-columns: 1fr 1.2fr;
+  margin-top: 28px;
+  align-items: center;
+}
+.detail-section > .ai-film .ai-film-media {
+  padding: 24px;
+}
+.detail-section > .ai-film video {
+  max-width: 250px;
+}
+.detail-section > .ai-film .ai-film-copy {
+  padding: 35px;
+}
+.script-details {
+  margin-top: 25px;
+  border-block: 1px solid var(--line);
+}
+.script-details summary {
+  list-style: none;
+  padding: 19px 0;
+  cursor: pointer;
+  font-size: 12px;
+}
+.script-details summary span {
+  float: right;
+}
+.script-details[open] summary span {
+  transform: rotate(45deg);
+}
+.script-steps {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  padding: 12px 0 28px;
+}
+.script-steps article > span {
+  font-size: 9px;
+  color: var(--muted);
+}
+.script-steps h3 {
+  font: 22px var(--serif);
+}
+.script-steps p {
+  font-size: 12px;
+  line-height: 1.9;
+  color: var(--muted);
+}
+.additional-title {
+  font: 26px var(--serif);
+  margin-top: 38px;
+}
+#hema,
+#trainee,
+#youth {
+  scroll-margin-top: 25px;
+}
+@media (max-width: 700px) {
+  .ai-film-grid {
+    grid-template-columns: 1fr;
+    gap: 22px;
+  }
+  .ai-film-media {
+    padding: 20px;
+  }
+  .ai-film video {
+    max-width: 240px;
+  }
+  .detail-section > .ai-film {
+    grid-template-columns: 1fr;
+  }
+  .detail-section > .ai-film .ai-film-copy {
+    padding: 22px;
+  }
+  .script-steps {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+  .script-steps h3 {
+    margin: 10px 0;
+  }
+  .film-jump {
+    gap: 14px;
+    font-size: 10px;
+  }
+  .ai-film-copy h3 {
+    font-size: 23px;
+  }
+}
