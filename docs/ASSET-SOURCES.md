@@ -37,3 +37,7 @@
 | `ai-youth.mp4` | `ai视频/ai青春短剧.mp4` |
 
 视频位于 `assets/videos/`，使用 H.264/AAC 编码，保留完整时长；封面从对应视频中截取。
+
+## 电视台项目主图
+
+`assets/images/marketing/newsroom-studio.webp`：珠海传媒集团航展直播间访谈节目场景，来自[珠海特区报原报道](https://pub-zhtb.hizh.cn/a/202211/10/AP636c39ade4b04f29fdc83465.html)，摄影：曾遥，2022-11-10。作为机构场景配图，不标为本人拍摄或参与的节目。

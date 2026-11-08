@@ -584,6 +584,12 @@
   font-size: 12px;
 }
 .marketing-home .experience-tag {
+  align-self: start;
+  justify-self: end;
+  padding: 7px 12px;
+  border-radius: 999px;
+  line-height: 1.4;
+  white-space: nowrap;
   background: #e6ebdf;
   color: var(--accent);
 }
