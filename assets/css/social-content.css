@@ -1,0 +1,127 @@
+.threads-panel {
+  margin-top: 28px;
+  padding: 28px;
+  background: #e9e5dd;
+  border: 1px solid var(--line);
+}
+.threads-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 18px;
+  flex-wrap: wrap;
+}
+.threads-kicker {
+  font-size: 10px;
+  letter-spacing: 0.14em;
+  color: var(--muted);
+}
+.threads-platform {
+  font: clamp(25px, 4vw, 34px) / 1.3 var(--serif);
+  margin: 8px 0;
+}
+.threads-note {
+  max-width: 560px;
+  font-size: 13px;
+  line-height: 1.9;
+  color: var(--muted);
+}
+.threads-period {
+  border: 1px solid #b9b1a5;
+  padding: 8px 12px;
+  font-size: 10px;
+  color: #5d5a54;
+}
+.threads-stats {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 10px;
+  margin-top: 24px;
+}
+.threads-stat {
+  background: #f7f4ee;
+  padding: 18px 16px;
+  min-height: 92px;
+}
+.threads-stat strong {
+  display: block;
+  font: clamp(24px, 4vw, 34px) / 1.2 var(--serif);
+  font-weight: 400;
+  color: var(--ink);
+  font-variant-numeric: tabular-nums;
+}
+.threads-stat span {
+  display: block;
+  margin-top: 7px;
+  font-size: 10px;
+  color: var(--muted);
+}
+.threads-chart {
+  margin-top: 22px;
+  padding: 22px;
+  background: #f7f4ee;
+}
+.threads-chart-title {
+  font: 18px var(--serif);
+  margin: 0 0 16px;
+}
+.threads-bars {
+  display: grid;
+  gap: 13px;
+}
+.threads-bar {
+  display: grid;
+  grid-template-columns: 58px 1fr 58px;
+  gap: 10px;
+  align-items: center;
+  font-size: 11px;
+  color: var(--muted);
+}
+.threads-track {
+  height: 7px;
+  background: #e4dfd6;
+  overflow: hidden;
+}
+.threads-fill {
+  height: 100%;
+  background: #84958b;
+}
+.threads-bar b {
+  text-align: right;
+  color: var(--ink);
+  font-weight: 500;
+  font-variant-numeric: tabular-nums;
+}
+.threads-foot {
+  font-size: 10px;
+  line-height: 1.8;
+  color: var(--muted);
+  margin: 16px 0 0;
+}
+.threads-method {
+  margin-top: 20px;
+  padding-left: 15px;
+  border-left: 2px solid #a9b8ae;
+  font-size: 12px;
+  line-height: 2;
+  color: var(--muted);
+}
+@media (max-width: 700px) {
+  .threads-panel {
+    padding: 19px;
+  }
+  .threads-stats {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .threads-stat {
+    min-height: 82px;
+    padding: 14px;
+  }
+  .threads-chart {
+    padding: 16px;
+  }
+  .threads-bar {
+    grid-template-columns: 48px 1fr 48px;
+    gap: 7px;
+  }
+}

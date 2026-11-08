@@ -1,0 +1,51 @@
+.reference-gallery {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+  margin: 30px 0 12px;
+}
+.reference-gallery figure {
+  margin: 0;
+  background: #eee9e1;
+  padding: 10px;
+}
+.reference-gallery figure:first-child {
+  grid-column: 1/-1;
+}
+.reference-gallery img {
+  display: block;
+  width: 100%;
+  height: clamp(210px, 32vw, 390px);
+  object-fit: cover;
+}
+.reference-gallery figure:first-child img {
+  height: clamp(260px, 44vw, 520px);
+}
+.reference-gallery figcaption {
+  padding: 11px 3px 2px;
+  font-size: 11px;
+  line-height: 1.8;
+  color: var(--muted);
+}
+.reference-gallery figcaption a {
+  color: var(--accent);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+.reference-intro {
+  font-size: 11px !important;
+  color: var(--muted);
+  margin: 8px 0 0;
+}
+@media (max-width: 700px) {
+  .reference-gallery {
+    grid-template-columns: 1fr;
+  }
+  .reference-gallery figure:first-child {
+    grid-column: auto;
+  }
+  .reference-gallery img,
+  .reference-gallery figure:first-child img {
+    height: 240px;
+  }
+}
