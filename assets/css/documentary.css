@@ -8,3 +8,44 @@
 
 .documentary-watch { margin-top: 20px; }
 #portrait-documentary { scroll-margin-top: 32px; }
+
+
+/* Editorial visual modules: documentary story architecture */
+.film-overview { display:grid; grid-template-columns:1.5fr 1fr; background:#e8ebe2; margin:28px 0 32px; }
+.film-overview-main { padding:28px 30px; }
+.film-overview-main>span,.visual-language-head>span,.visual-shot>span { font:9px var(--sans); letter-spacing:1.5px; color:var(--muted); }
+.film-overview-main>strong { display:block; font:clamp(48px,7vw,76px)/1.15 Georgia,serif; color:var(--ink); margin:12px 0 4px; }
+.film-overview-main>strong small { font:20px var(--serif); }
+.film-overview-main p { font:12px var(--sans); color:var(--muted); }
+.film-overview-side { display:grid; grid-template-columns:repeat(3,1fr); align-items:center; padding:20px; background:#dfe5d9; }
+.film-overview-side div { display:flex; flex-direction:column; gap:8px; border-left:1px solid #c4cfc1; padding-left:14px; }
+.film-overview-side b { font:24px Georgia,serif; color:var(--accent); }
+.film-overview-side span { font:11px var(--sans); color:var(--muted); }
+.chapter-timeline { margin:26px 0 42px; }
+.chapter-timeline article { display:grid; grid-template-columns:110px 24px 1fr; gap:18px; min-height:106px; }
+.chapter-time { font:15px var(--serif); padding-top:2px; }
+.chapter-time span { display:block; font:10px var(--sans); color:var(--muted); margin-top:7px; }
+.chapter-line { position:relative; display:flex; justify-content:center; }
+.chapter-line:before { content:""; position:absolute; top:5px; bottom:-5px; width:1px; background:#cbd3c7; }
+.chapter-line i { position:relative; z-index:1; width:10px; height:10px; border-radius:50%; background:var(--accent); border:3px solid var(--paper); box-shadow:0 0 0 1px var(--accent); }
+.chapter-copy { padding-bottom:25px; border-bottom:1px solid var(--line); }
+.chapter-copy h3 { font:20px var(--serif); margin:0 0 7px; }
+.chapter-copy p { font:12px/1.85 var(--sans); color:var(--muted); margin:0; }
+.visual-language { margin-top:34px; }
+.visual-language-head { display:flex; justify-content:space-between; align-items:baseline; gap:20px; margin-bottom:18px; }
+.visual-language-head h3 { font:22px var(--serif); margin:0; }
+.visual-language-grid { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:10px; }
+.visual-shot { min-height:190px; padding:18px; display:flex; flex-direction:column; justify-content:flex-end; background:#e7e9df; position:relative; overflow:hidden; }
+.visual-shot:before { content:""; position:absolute; width:150px; height:150px; border:1px solid #9ba995; border-radius:50%; right:-48px; top:-50px; box-shadow:0 0 0 16px #ffffff18,0 0 0 32px #ffffff18; }
+.shot-craft { background:#e9e2d8; } .shot-craft:before { border-radius:4px; transform:rotate(35deg); }
+.shot-portrait { background:#e2e8e5; } .shot-portrait:before { width:100px; height:140px; border-radius:50% 50% 8px 8px; }
+.shot-landscape { background:#dfe7e5; } .shot-landscape:before { width:210px; height:80px; border-radius:50%; top:10px; }
+.visual-shot>span,.visual-shot>strong,.visual-shot>p { position:relative; z-index:1; }
+.visual-shot>strong { font:20px var(--serif); margin:9px 0 6px; }
+.visual-shot>p { font:11px/1.7 var(--sans); color:var(--muted); margin:0; }
+.interview-design { padding:22px 24px; margin-top:28px; background:#203c35; color:#f5f3ed; }
+.interview-design>strong { display:block; font:21px var(--serif); margin:9px 0 18px; }
+.interview-design>div { display:grid; grid-template-columns:repeat(4,1fr); gap:8px; }
+.interview-design>div b { padding:10px 12px; border:1px solid #587064; font:12px var(--sans); text-align:center; color:#e1e8dc; }
+@media(max-width:800px) { .visual-language-grid { grid-template-columns:repeat(2,minmax(0,1fr)); } .film-overview { grid-template-columns:1fr; } .film-overview-side { padding:16px 25px; } }
+@media(max-width:520px) { .chapter-timeline article { grid-template-columns:74px 18px 1fr; gap:10px; } .chapter-time { font-size:13px; } .chapter-copy h3 { font-size:17px; } .visual-language-head { display:block; } .visual-language-head h3 { margin-top:9px; } .visual-language-grid { grid-template-columns:1fr 1fr; } .visual-shot { min-height:170px; padding:14px; } .interview-design { padding:18px; } .interview-design>div { grid-template-columns:1fr 1fr; } }
